@@ -1,0 +1,16 @@
+Write the "Learning Corner" for "Morning Compile," a 2-3 minute narrator segment.
+
+Concept: {learning_concept}
+Connection to today's news: {connection}
+
+Structure:
+1. What it is (30 sec) — explain with an analogy
+2. Why it matters now (30 sec) — connect to today's news
+3. How to learn more (60 sec) — specific recommendations:
+   - A paper, tutorial, or textbook chapter
+   - A hands-on project idea
+   - How this connects to CE career opportunities
+
+Same narrator voice as news. Encouraging, not patronizing. The listener is a senior CE student.
+
+Do NOT include stage directions or non-speech content. Write ONLY spoken words.

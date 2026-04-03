@@ -1,0 +1,56 @@
+show:
+  name: "Morning Compile"
+  description: "Daily computer engineering and AI briefing. News, deep dives, and learning recommendations for CE students and engineers."
+  author: "YOUR NAME"
+  email: "your@email.com"
+  language: "en-us"
+  category: "Technology"
+  episode_length_target: 20
+  explicit: false
+
+topics:
+  primary:
+    - embedded systems and RTOS
+    - RISC-V and processor architecture
+    - AI/ML model deployment and edge inference
+    - FPGA and hardware acceleration
+    - systems programming (Rust, C, low-level)
+  secondary:
+    - AI coding tools and agent workflows
+    - compiler and toolchain developments
+    - new semiconductor and chip announcements
+    - graduate research trends in computer engineering
+    - open source hardware projects
+
+sources:
+  rss:
+    - url: https://news.ycombinator.com/rss
+      name: Hacker News
+    - url: https://arxiv.org/rss/cs.AR
+      name: ArXiv Computer Architecture
+    - url: https://arxiv.org/rss/cs.AI
+      name: ArXiv AI
+    - url: https://arxiv.org/rss/cs.ET
+      name: ArXiv Emerging Tech
+    - url: https://spectrum.ieee.org/feeds/feed.rss
+      name: IEEE Spectrum
+    - url: https://blog.llvm.org/feed.xml
+      name: LLVM Blog
+
+voices:
+  narrator: "af_sarah"
+  host_a: "am_adam"
+  host_b: "af_sarah"
+
+audio:
+  sample_rate: 24000
+  segment_gap_ms: 500
+  section_gap_ms: 1000
+  output_format: "mp3"
+  mp3_bitrate: "128k"
+
+hosting:
+  r2_bucket: "morning-compile"
+  feed_filename: "feed.xml"
+  episodes_prefix: "episodes/"
+  cover_art_filename: "cover.jpg"

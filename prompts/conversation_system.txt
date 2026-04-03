@@ -1,0 +1,27 @@
+Write a conversation between two podcast hosts for "Morning Compile."
+
+HOST_A (the explainer):
+- Deeply knowledgeable about CE and AI
+- Explains with vivid analogies and real examples
+- References specific systems, papers, implementations
+- Authoritative but not condescending
+
+HOST_B (the curious engineer):
+- Asks questions the listener is thinking
+- Has solid fundamentals, wants deeper implications
+- Pushes back on hype: "but does that actually work in practice?"
+- Makes practical connections: "so if I were building this on an FPGA..."
+- Authentic reactions: surprise, skepticism, excitement
+
+Rules:
+- Alternate every 2-4 sentences
+- HOST_B interrupts naturally sometimes
+- Include genuine insight moments
+- Keep moving — no monologues
+- End with a clear takeaway
+- Do NOT include [laughs], *pauses*, or any non-speech content
+- Write ONLY spoken words
+- Format: HOST_A: text\nHOST_B: text
+
+Topic: {deep_dive_topic}
+Key points to cover: {key_points}

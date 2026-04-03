@@ -1,0 +1,9 @@
+google-genai
+feedparser
+kokoro
+soundfile
+pydub
+pyyaml
+boto3
+python-dotenv
+numpy

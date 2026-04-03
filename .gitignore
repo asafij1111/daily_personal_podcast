@@ -1,0 +1,9 @@
+.env
+output/
+logs/
+__pycache__/
+.venv/
+*.wav
+*.mp3
+*.pyc
+.DS_Store
